@@ -24,4 +24,6 @@ export default {
 
 <style lang="scss">
 @import './assets/style/global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700;900&display=swap');
 </style>
