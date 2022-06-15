@@ -1,10 +1,18 @@
 :root {
-    // --- COLORS --- \\
-    --primary-color: #1e3020;
-    --secondary-color: #59b742;
-    --tertiary-color: #faf4f4;
-    --quaternary-color:#ffffff;
-    --pentenary-color: #000000;
+    // --- BACKGROUND COLORS --- \\
+    --primary-bg-color: rgb(30, 48, 32);
+    --secondary-bg-color: rgb(255, 255, 255);
+    --tertiary-bg-color: rgb(61, 111, 66);
+    --quaternary-bg-color:rgb(0, 0, 0);
+    --pentenary-bg-color: rgb(250, 250, 250);
+    --exanary-bg-color: rgb(115, 115, 115);
+
+    // --- TEXT COLORS --- \\
+    --primary-txt-color: rgb(255, 255, 255);
+    --secondary-txt-color: rgb(0, 0, 0);
+    --tertiary-txt-color: rgb(80, 142, 90);
+    --quaternary-txt-color:rgb(156, 165, 157);
+    --pentenary-txt-color: rgb(115, 115, 115);
 
     // --- BUTTONS COLORS --\\
     --primary-button-bg: rgb(255, 255, 255);
