@@ -19,11 +19,10 @@ export default {
 
 <style lang="scss" scoped>
 button {
-    border-radius: 1.5rem;
-    padding: 0.8rem 2rem;
+    border-radius: var(--standard-border-radius);
+    padding: var(--standard-microcomp-padding);
     border: none;
     cursor: pointer;
-    margin: 200px;
 
     &:active {
         transform: translateY(0.125rem);
