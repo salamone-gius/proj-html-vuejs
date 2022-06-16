@@ -24,6 +24,11 @@ button {
     border: none;
     cursor: pointer;
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     &:active {
         transform: translateY(0.125rem);
     }
