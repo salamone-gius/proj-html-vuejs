@@ -1,5 +1,5 @@
 <template>
-    <header class="container">
+    <header>
         <HeaderTop/>
     </header>
 </template>

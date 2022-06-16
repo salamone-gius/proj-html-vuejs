@@ -18,6 +18,7 @@ form {
     padding: var(--standard-searchbar-padding);
     background-color: var(--pentenary-bg-color);
     border-radius: var(--standard-border-radius);
+    max-width: 16rem;
 
     & > * {
         border: none;
@@ -26,7 +27,7 @@ form {
 
     button {
         cursor: pointer;
-        margin-right: 1rem;
+        margin-right: 0.6rem;
     }
 }
 </style>
