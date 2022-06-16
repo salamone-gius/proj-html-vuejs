@@ -6,11 +6,11 @@
                 <p>Augue purus et, tincidunt condimentum mauris. At nibh rutrum mi in. Nisi, vitae interdum eleifend dui, consequat nulla rhoncus dictum. Viverra.</p>
             </div>
         </div>
-        <ul class="categories row row-cols-4 d-flex justify-content-center">
+        <ul class="categories row row-cols-4 d-flex justify-content-center mb-5">
             <li class="col">
                 <a href="#">
                     <BaseCard
-                        :categoryImg="require('../../assets/img/product-9-300x300.jpg')"
+                        :categoryImg="require('../../assets/img/product-9-700x700.jpg')"
                         categoryAlt="Bed"
                         cardLabel="Bed"
                         quantity="(1)"
@@ -20,7 +20,7 @@
             <li class="col">
                 <a href="#">
                     <BaseCard
-                        :categoryImg="require('../../assets/img/product-3-300x300.jpg')"
+                        :categoryImg="require('../../assets/img/product-3-700x700.jpg')"
                         categoryAlt="Food"
                         cardLabel="Food"
                         quantity="(6)"
@@ -30,7 +30,7 @@
             <li class="col">
                 <a href="#">
                     <BaseCard
-                        :categoryImg="require('../../assets/img/product-2-300x300.jpg')"
+                        :categoryImg="require('../../assets/img/product-2-700x700.jpg')"
                         categoryAlt="Toys"
                         cardLabel="Toys"
                         quantity="(6)"
@@ -40,7 +40,7 @@
             <li class="col">
                 <a href="#">
                     <BaseCard
-                        :categoryImg="require('../../assets/img/product-4-300x300.jpg')"
+                        :categoryImg="require('../../assets/img/product-4-700x700.jpg')"
                         categoryAlt="Transport"
                         cardLabel="Transport"
                         quantity="(6)"
@@ -89,6 +89,5 @@ export default {
             }
         }
     }
-    
 }
 </style>
