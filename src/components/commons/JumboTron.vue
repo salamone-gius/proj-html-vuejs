@@ -38,7 +38,7 @@ export default {
     .claim {
         position: absolute;
         top: 50%;
-        left: 5.625rem;
+        left: 6rem;
         transform: translateY(-50%);
         width: 40%;   
 
@@ -48,7 +48,8 @@ export default {
         }
 
         h1 {
-            margin: 5rem 0;
+            margin: 3rem 0;
+            font-size: 3.125rem;
         }
     }
 
