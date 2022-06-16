@@ -14,6 +14,7 @@
                         categoryAlt="Bed"
                         cardLabel="Bed"
                         quantity="(1)"
+                        secondPTag="d-none"
                     />
                 </a>
             </li>
@@ -24,6 +25,7 @@
                         categoryAlt="Food"
                         cardLabel="Food"
                         quantity="(6)"
+                        secondPTag="d-none"
                     />
                 </a>
             </li>
@@ -34,6 +36,7 @@
                         categoryAlt="Toys"
                         cardLabel="Toys"
                         quantity="(6)"
+                        secondPTag="d-none"
                     />
                 </a>
             </li>
@@ -44,6 +47,7 @@
                         categoryAlt="Transport"
                         cardLabel="Transport"
                         quantity="(6)"
+                        secondPTag="d-none"
                     />
                 </a>
             </li>

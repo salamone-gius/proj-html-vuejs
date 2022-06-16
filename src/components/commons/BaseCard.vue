@@ -2,6 +2,7 @@
     <div class="base-card">
         <img :src="categoryImg" :alt="categoryAlt">
         <p>{{cardLabel}} {{quantity}}</p>
+        <p :class="secondPTag">{{secondPContent}}</p>
     </div>
 </template>
 
@@ -18,6 +19,8 @@ export default {
         categoryAlt: String,
         cardLabel: String,
         quantity: String,
+        secondPTag: String,
+        secondPContent: String,
     }
 }
 </script>
@@ -29,6 +32,10 @@ img {
 
 p {
     text-align: center;
-    margin-top: 1.875rem;
+    margin-top: 1rem;
+}
+
+.d-none {
+    display: none;
 }
 </style>

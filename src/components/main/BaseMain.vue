@@ -4,6 +4,7 @@
         <SectionCategories/>
         <SectionFood/>
         <SectionNewArrivals/>
+        <SectionBestSellers/>
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import SectionHero from './SectionHero.vue';
 import SectionCategories from './SectionCategories.vue';
 import SectionFood from './SectionFood.vue';
 import SectionNewArrivals from './SectionNewArrivals.vue';
+import SectionBestSellers from './SectionBestSellers.vue';
 
 export default {
     name: 'BaseMain',
@@ -21,6 +23,7 @@ export default {
         SectionCategories,
         SectionFood,
         SectionNewArrivals,
+        SectionBestSellers,
     }
 }
 </script>
