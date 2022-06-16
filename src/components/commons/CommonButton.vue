@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 button {
     border-radius: var(--standard-border-radius);
-    padding: var(--standard-microcomp-padding);
+    padding: var(--standard-button-padding);
     border: none;
     cursor: pointer;
 
