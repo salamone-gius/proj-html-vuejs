@@ -1,17 +1,20 @@
 <template>
     <footer>
         <FooterTop/>
+        <FooterMiddle/>
     </footer>
 </template>
 
 <script>
 import FooterTop from './FooterTop.vue';
+import FooterMiddle from './FooterMiddle.vue';
 
 export default {
     name: 'BaseFooter',
 
     components: {
         FooterTop,
+        FooterMiddle,
     }
 }
 </script>
