@@ -5,7 +5,7 @@
             <p>Volutpat vel turpis nulla lorem sed semper. Aliquam sagittis sem libero viverra vehicula nullam ut nisl.</p>
             <div class="subscribe-form">
                 <SubscribeForm
-                    inputStyle="margin-right: 5rem;"
+                    inputStyle="margin-right: 6rem;"
                 />
             </div>
         </div>
@@ -26,11 +26,14 @@ export default {
 
 <style lang="scss" scoped>
 .newsletter-section {
-    width: 80%;
+    width: 90%;
+    background-color: var(--secondary-bg-color);
     background-image: url("./../../assets/img/banner-7-2x-scaled.jpg");
-    background-size: 65rem;
+    background-size: 75rem;
     background-repeat: no-repeat;
     background-position: right;
+    position: relative;
+    top: -4.5rem;
 
     .join-newsletter {
         width: 60%;
