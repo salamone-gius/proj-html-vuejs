@@ -11,8 +11,8 @@
                 <VerticalNavbarBis/>
             </div>
             <div class="col subscribe">
-                <h5>Subscribe to our newsletter</h5>
                 <div class="subscrive-form">
+                    <h5>Subscribe to our newsletter</h5>
                     <SubscribeForm
                         inputStyle="width: 12rem;"
                     />
@@ -48,10 +48,18 @@ export default {
     .subscribe {
         background-color: var(--eptenary-bg-color);
         background-image: url('../../assets/img/bg-transparent-3.png');
-        padding: 2rem;
+        position:  relative;
 
-        h5 {
-            margin-bottom: 1.25rem;
+        .subscrive-form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            h5 {
+                margin-bottom: 1.25rem;
+            }
+
         }
     }
 }
