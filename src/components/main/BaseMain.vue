@@ -5,6 +5,7 @@
         <SectionFood/>
         <SectionNewArrivals/>
         <SectionBestSellers/>
+        <SectionUsersTestimonials/>
     </main>
 </template>
 
@@ -14,7 +15,7 @@ import SectionCategories from './SectionCategories.vue';
 import SectionFood from './SectionFood.vue';
 import SectionNewArrivals from './SectionNewArrivals.vue';
 import SectionBestSellers from './SectionBestSellers.vue';
-
+import SectionUsersTestimonials from './SectionUsersTestimonials.vue';
 export default {
     name: 'BaseMain',
 
@@ -24,6 +25,7 @@ export default {
         SectionFood,
         SectionNewArrivals,
         SectionBestSellers,
+        SectionUsersTestimonials,
     }
 }
 </script>
