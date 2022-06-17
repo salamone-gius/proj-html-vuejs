@@ -5,7 +5,7 @@
             <p>Volutpat vel turpis nulla lorem sed semper. Aliquam sagittis sem libero viverra vehicula nullam ut nisl.</p>
             <div class="subscribe-form">
                 <SubscribeForm
-                    inputStyle="margin-right: 6rem;"
+                    inputStyle="margin-right: 6rem; width: 21.875rem;"
                 />
             </div>
         </div>

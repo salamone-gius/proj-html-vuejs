@@ -33,8 +33,8 @@ export default {
 .email-input {
     padding: var(--standard-inputbar-padding);
     background-color: var(--pentenary-bg-color);
-    border-radius: var(--standard-border-radius);
-    width: 21.875rem;
+    border-radius: var(--standard-border-radius);    
     border: none;
+    margin-bottom: 1.875rem;
 }
 </style>
