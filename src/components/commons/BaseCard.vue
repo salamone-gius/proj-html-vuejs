@@ -2,7 +2,7 @@
     <div class="base-card">
         <img :src="categoryImg" :alt="categoryAlt">
         <p :style="firstPstyle">{{cardLabel}} {{quantity}}</p>
-        <p :class="secondPTag">{{secondPContentA}} {{secondPContentB}}</p>
+        <p :style="secondPstyle" :class="secondPTag">{{secondPContentA}} {{secondPContentB}}</p>
     </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
         secondPTag: String,
         secondPContentA: String,
         secondPContentB: String,
-
+        secondPstyle: String,
     }
 }
 </script>

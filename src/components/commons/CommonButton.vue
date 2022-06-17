@@ -1,5 +1,5 @@
 <template>
-    <button :type="buttonType" :class="buttonClass">
+    <button :style="buttonStyle" :type="buttonType" :class="buttonClass">
         <a :href="buttonLink">{{buttonText}}</a>
     </button>
 </template>
@@ -9,6 +9,7 @@ export default {
     name: 'CommonButton',
 
     props: {
+        buttonStyle: String,
         buttonType: String,
         buttonClass: String,
         buttonLink: String,
