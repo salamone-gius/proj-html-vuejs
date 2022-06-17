@@ -1,19 +1,20 @@
 <template>
     <div class="footer-middle">
-        <div>
-            <NavBarBis/>
-        </div>
+        <NavBarBis/>
+        <SocialNav/>
     </div>
 </template>
 
 <script>
 import NavBarBis from './../commons/NavBarBis.vue';
+import SocialNav from './../commons/SocialNav.vue';
 
 export default {
     name: 'FooterMiddle',
 
     components: {
         NavBarBis,
+        SocialNav,
     }
 }
 </script>
