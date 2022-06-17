@@ -9,6 +9,7 @@
         <SectionNewsletter/>
         <SectionArticles/>
         <SectionSummary/>
+        <SectionNewProducts/>
     </main>
 </template>
 
@@ -22,6 +23,7 @@ import SectionUsersTestimonials from './SectionUsersTestimonials.vue';
 import SectionNewsletter from './SectionNewsletter.vue';
 import SectionArticles from './SectionArticles.vue';
 import SectionSummary from './SectionSummary.vue';
+import SectionNewProducts from './SectionNewProducts.vue';
 
 export default {
     name: 'BaseMain',
@@ -36,6 +38,7 @@ export default {
         SectionNewsletter,
         SectionArticles,
         SectionSummary,
+        SectionNewProducts,
     }
 }
 </script>

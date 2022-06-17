@@ -23,6 +23,7 @@
                         firstPstyle="font-size: 1.375rem;"
                         cardLabel="Transport cage"
                         secondPContentA="$ 25.00"
+                        secondPstyle="color: var(--tertiary-txt-color);"
                     />
                 </a>
             </li>
@@ -34,6 +35,7 @@
                         firstPstyle="font-size: 1.375rem;"
                         cardLabel="Dog leash"
                         secondPContentA="$ 25.00"
+                        secondPstyle="color: var(--tertiary-txt-color);"
                     />
                 </a>
             </li>
@@ -45,6 +47,7 @@
                         firstPstyle="font-size: 1.375rem;"
                         cardLabel="Animal transport cage"
                         secondPContentA="$ 25.00"
+                        secondPstyle="color: var(--tertiary-txt-color);"
                     />
                 </a>
             </li>
@@ -56,6 +59,7 @@
                         firstPstyle="font-size: 1.375rem;"
                         cardLabel="Colorful cat leash"
                         secondPContentA="$ 12.00"
+                        secondPstyle="color: var(--tertiary-txt-color);"
                     />
                 </a>
             </li>
