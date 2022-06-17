@@ -48,6 +48,7 @@
                         cardLabel="Animal transport cage"
                         secondPContentA="$ 25.00"
                         secondPstyle="color: var(--tertiary-txt-color);"
+                        spanText="$ 35.00"
                     />
                 </a>
             </li>

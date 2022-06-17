@@ -2,7 +2,10 @@
     <div class="base-card">
         <img :src="categoryImg" :alt="categoryAlt">
         <p :style="firstPstyle">{{cardLabel}} {{quantity}}</p>
-        <p :style="secondPstyle" :class="secondPTag">{{secondPContentA}} {{secondPContentB}}</p>
+        <p :style="secondPstyle" :class="secondPTag">
+            <span :style="spanStyle">{{spanText}}</span>
+            {{secondPContentA}} {{secondPContentB}}
+        </p>
     </div>
 </template>
 
@@ -20,6 +23,8 @@ export default {
         secondPContentA: String,
         secondPContentB: String,
         secondPstyle: String,
+        spanStyle: String,
+        spanText: String,
     }
 }
 </script>
@@ -32,6 +37,12 @@ img {
 p {
     text-align: center;
     margin-top: 1rem;
+}
+
+span {
+    font-size: .8125rem;
+    text-decoration: line-through;
+    color: var(--secondary-txt-color);
 }
 
 .d-none {

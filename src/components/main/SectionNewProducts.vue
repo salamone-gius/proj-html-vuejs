@@ -41,6 +41,7 @@
                             cardLabel="Dog bone"
                             secondPContentA="$ 18.00"
                             secondPstyle="color: var(--tertiary-txt-color);"
+                            spanText="$ 29.00"
                         />
                     </a>
                 </li>
