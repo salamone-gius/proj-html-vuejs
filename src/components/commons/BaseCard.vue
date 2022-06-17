@@ -1,14 +1,10 @@
 <template>
     <div class="base-card">
         <img :src="categoryImg" :alt="categoryAlt">
-        <p>{{cardLabel}} {{quantity}}</p>
-        <p :class="secondPTag">{{secondPContent}}</p>
+        <p :style="firstPstyle">{{cardLabel}} {{quantity}}</p>
+        <p :class="secondPTag">{{secondPContentA}} {{secondPContentB}}</p>
     </div>
 </template>
-
-
-// require('../../assets/img/product-9-300x300.jpg')
-
 
 <script>
 export default {
@@ -17,10 +13,13 @@ export default {
     props: {
         categoryImg: String,
         categoryAlt: String,
+        firstPstyle: String,
         cardLabel: String,
         quantity: String,
         secondPTag: String,
-        secondPContent: String,
+        secondPContentA: String,
+        secondPContentB: String,
+
     }
 }
 </script>

@@ -20,8 +20,9 @@
                     <BaseCard
                         :categoryImg="require('../../assets/img/product-21-800x800.jpg')"
                         categoryAlt="Transport cage"
+                        firstPstyle="font-size: 1.375rem;"
                         cardLabel="Transport cage"
-                        secondPContent="$ 25.00"
+                        secondPContentA="$ 25.00"
                     />
                 </a>
             </li>
@@ -30,8 +31,9 @@
                     <BaseCard
                         :categoryImg="require('../../assets/img/product-20-800x800.jpg')"
                         categoryAlt="Dog leash"
+                        firstPstyle="font-size: 1.375rem;"
                         cardLabel="Dog leash"
-                        secondPContent="$ 25.00"
+                        secondPContentA="$ 25.00"
                     />
                 </a>
             </li>
@@ -40,8 +42,9 @@
                     <BaseCard
                         :categoryImg="require('../../assets/img/product-16-800x800.jpg')"
                         categoryAlt="Animal transport cage"
+                        firstPstyle="font-size: 1.375rem;"
                         cardLabel="Animal transport cage"
-                        secondPContent="$ 25.00"
+                        secondPContentA="$ 25.00"
                     />
                 </a>
             </li>
@@ -50,8 +53,9 @@
                     <BaseCard
                         :categoryImg="require('../../assets/img/product-11-800x800.jpg')"
                         categoryAlt="Colorful cat leash"
+                        firstPstyle="font-size: 1.375rem;"
                         cardLabel="Colorful cat leash"
-                        secondPContent="$ 12.00"
+                        secondPContentA="$ 12.00"
                     />
                 </a>
             </li>
@@ -100,5 +104,4 @@ export default {
         }
     }
 }
-
 </style>
