@@ -8,6 +8,7 @@
         <SectionUsersTestimonials/>
         <SectionNewsletter/>
         <SectionArticles/>
+        <SectionSummary/>
     </main>
 </template>
 
@@ -20,6 +21,7 @@ import SectionBestSellers from './SectionBestSellers.vue';
 import SectionUsersTestimonials from './SectionUsersTestimonials.vue';
 import SectionNewsletter from './SectionNewsletter.vue';
 import SectionArticles from './SectionArticles.vue';
+import SectionSummary from './SectionSummary.vue';
 
 export default {
     name: 'BaseMain',
@@ -33,6 +35,7 @@ export default {
         SectionUsersTestimonials,
         SectionNewsletter,
         SectionArticles,
+        SectionSummary,
     }
 }
 </script>

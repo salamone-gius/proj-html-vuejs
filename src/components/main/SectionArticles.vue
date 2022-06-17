@@ -111,5 +111,6 @@ export default {
 
 .button-box {
     text-align: center;
+    margin-bottom: 6rem;
 }
 </style>
