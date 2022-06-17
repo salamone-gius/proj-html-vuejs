@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 .social {
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
     text-align: center;
 
     a {
