@@ -23,6 +23,7 @@ button {
     padding: var(--standard-button-padding);
     border: none;
     cursor: pointer;
+    min-width: 11.25rem;
 
     a {
         text-decoration: none;
